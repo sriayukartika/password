@@ -1,0 +1,77 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: bordr-box;
+}
+body{
+    background: rgba(44, 45, 77, 0.267);
+    color: #fff;
+}
+.container{
+    margin:12%;
+    width:90%;
+    max-width: 600px;
+}
+.display{
+    width: 100%;
+    margin-top:50px;
+    margin-bottom: 30px;
+    background: #fff; 
+    color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 26px 20px;
+    border-radius: 5px;
+}
+.container h1{
+    font-weight: 400;
+    font-size:40px;
+}
+.container h1 span{
+    color:rgb(65, 57, 50);
+    border-bottom: 3px solid rgb(163, 148, 148);
+    padding-bottom: 6px;
+}
+.display img{
+    width: 20px;
+    cursor:pointer;
+}
+.display input{
+    border: 0;
+    outline:0;
+    font-size:20px;
+}
+.container button img{
+    width: 20px;
+    margin-right: 8px;
+}
+.container button{
+    border: 0;
+    outline: 0;
+    background: #333;
+    color:antiquewhite;
+    font-size: 15px;
+    font-weight:100;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    padding: 9px 9px;
+    border-radius: 5px;
+    cursor:pointer;
+}
+/*untuk layar device berukuran kecil*/
+@media screen and (min-width: 250px){
+
+}
+
+/*untuk layar device berukuran sedang*/
+@media screen and (min-width: 400px) {
+
+}
+
+/*untuk layar device berukuran besar*/
+@media screen and (min-width: 800px) {
+
+}
